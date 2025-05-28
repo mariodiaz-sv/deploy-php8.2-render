@@ -95,10 +95,5 @@ Este proyecto incluye un flujo de trabajo de GitHub Actions que:
 
 ## 🧑‍💻 Autor
 
-CDesarrollado por [mariodiaz-sv](https://github.com/mariodiaz-sv)
+Desarrollado por [mariodiaz-sv](https://github.com/mariodiaz-sv)
 
----
-
-## ⚖️ Licencia
-
-MIT License

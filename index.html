@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario PHP sin BD</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1em;
+      text-decoration: none;
+    }
+    section {
+      padding: 2em;
+    }
+    footer {
+      text-align: center;
+      background: #eee;
+      padding: 1em;
+      margin-top: 2em;
+    }
+    input, button {
+      margin: 0.5em 0;
+      padding: 0.5em;
+    }
+    .card {
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#formulario">Formulario</a>
+    <a href="#resultados">Resultados</a>
+  </nav>
+</header>
+
+<section id="inicio">
+  <h1>Bienvenido</h1>
+  <p>Este es un ejemplo de SPA con PHP sin base de datos.</p>
+</section>
+
+<section>
+  <h2>Captura de Datos</h2>
+  <form id="formulario">
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="number" step="0.01" id="promedio" placeholder="Promedio" required />
+    <button type="submit">Guardar</button>
+  </form>
+</section>
+
+<section>
+  <h2>Datos Guardados</h2>
+  <div class="card" id="resultados"></div>
+</section>
+
+<footer>
+  &copy; 2025 Demo PHP App. Todos los derechos reservados.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
